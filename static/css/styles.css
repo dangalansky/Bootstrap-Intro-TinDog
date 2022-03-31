@@ -1,0 +1,173 @@
+/* HTML */
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold';
+}
+
+/* Sections */
+
+.white-section {
+    background-color: white;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Title */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#title {
+    text-align: left;
+}
+
+.title-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%
+}
+
+.download-button {
+    margin: 5% 3% 5% 0
+}
+
+/* Title: Responsivity for Tablet and iPhones*/
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static; 
+        transform: rotate(0deg);
+    }
+}
+
+/* Features */
+#features {
+    position: relative;
+}
+
+.features {
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: .5rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-size: 1.4rem;
+}
+
+.feature-subtitle {
+    color: #8f8f8f
+}
+
+/* Testimonials */
+#testimonials {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Carousel */
+.carousel-control-prev, .carousel-control-next {
+    background-color: #ef8172;
+    border: none;
+    height: 5%;
+    width: 3%;
+    margin-top: 150px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.mast {
+    line-height: .87;
+}
+
+/* Call to Action */
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+.foot-icon {
+    margin: 20px 10px;
+}
+
+.foot-icon:hover {
+    color: #8f8f8f;
+}
